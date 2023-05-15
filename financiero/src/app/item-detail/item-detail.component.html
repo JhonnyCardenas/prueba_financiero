@@ -1,0 +1,10 @@
+<div class="container">
+    <h2>Item Details</h2>
+    <div *ngIf="item">
+      <p><strong>ID:</strong> {{ item.id }}</p>
+      <p><strong>Name:</strong> {{ item.name }}</p>
+      <p><strong>Description:</strong> {{ item.description }}</p>
+      <a routerLink="/items" class="btn btn-primary">Back to List</a>
+    </div>
+  </div>
+  
